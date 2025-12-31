@@ -33,6 +33,7 @@ import Timeline2 from "./components/Timeline2";
 import StoryWorldMap from "./components/StoryWorldMap";
 import Hydrology from "./components/Hydrology";
 import WorldMapScroll from "./components/WorldMapScroll";
+import Credits from "./components/Credits";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
@@ -276,9 +277,9 @@ export default function Home() {
         <StoryWorldMap />
       </div> */}
 
-       {/* <div className={`w-full h-full `} >
-        <WorldMapScroll />
-      </div> */}
+       <div className={`w-full h-full   `}  >
+        <Credits />
+      </div>
 
 
 

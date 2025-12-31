@@ -2,13 +2,14 @@ import React from 'react'
 
 type probs={
     text:string
+    customclass?:string
 }
 
-const Heading = ({text}:probs) => {
+const Heading = ({text,customclass="color-b"}:probs) => {
 
   return (
     <div className="w-full ">
-        <h1 className="text-xl md:text-3xl font-extrabold color-b">{text}</h1>
+        <h1 className={`text-xl md:text-3xl font-extrabold  ${customclass}`}>{text}</h1>
       
     </div>
   )
