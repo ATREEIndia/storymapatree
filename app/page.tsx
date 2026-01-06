@@ -167,7 +167,7 @@ export default function Home() {
 
 
       {/* introduction */}
-      <div ref={sectionRefs.Introduction} className={`w-full h-full ${spacing} `} id="introduction">
+      <div ref={sectionRefs.Introduction} className={`w-full h-full  ${spacing} `} id="introduction">
         <Introduction />
       </div>
 
@@ -175,13 +175,13 @@ export default function Home() {
        <PlaceZoom/>
       </div> */}
 
-      <Pagebreak image='/pagebreak_waterbird.png' />
+      <Pagebreak image='/pagebreak_dog.png' customclass=" h-[150px] " />
 
 
 
 
       {/* place */}
-      <div ref={sectionRefs.Place} className={`w-full h-full ${spacing} `} id="place">
+      <div ref={sectionRefs.Place} className={`w-full h-full  ${spacing} `} id="place">
         <Place />
       </div>
 
