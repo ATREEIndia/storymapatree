@@ -347,7 +347,7 @@ const LakeStoryMap = () => {
             ,
 
             color: "from-blue-400 to-indigo-400",
-            image: ["https://atree-communication.s3.amazonaws.com/Storymap_media/signboard_gts.JPG"]
+            image: ["https://atree-communication.s3.amazonaws.com/Storymap_media/book.jpg","https://atree-communication.s3.amazonaws.com/Storymap_media/kidlooking.JPG","https://atree-communication.s3.amazonaws.com/Storymap_media/kidsDrawing.JPG","https://atree-communication.s3.amazonaws.com/Storymap_media/signboard_gts.JPG"]
         },
         {
             year: "2022 -2025",
@@ -636,7 +636,7 @@ const LakeStoryMap = () => {
                                             <ImageSlider
                                                 images={event.image}
                                                 autoPlay={false}
-                                                interval={4000}
+                                                interval={5000}
                                             />
                                             {/* <div className={`absolute inset-0 bg-gradient-to-t ${event.color} opacity-10 group-hover:opacity-20 transition-opacity`} /> */}
                                         </div>

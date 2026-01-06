@@ -7,47 +7,47 @@ import Bodytext from './Bodytext';
 const CreditList2 = {
     "Storymap team": [
         {
-            name: "Jaya Peter",
+            name: "ATREE Communications",
             role: "",
             url: ""
         },
-        {
-            name: "Teerath Rawat",
-            role: "",
-            url: ""
-        },
+        // {
+        //     name: "Teerath Rawat",
+        //     role: "",
+        //     url: ""
+        // },
+        // {
+        //     name: "Sreekuttan V N",
+        //     role: "",
+        //     url: ""
+        // },
+        // {
+        //     name: "Radha Patkar",
+        //     role: "",
+        //     url: ""
+        // },
+        // {
+        //     name: "Jayshree Borgohain",
+        //     role: "",
+        //     url: ""
+        // },
+        // {
+        //     name: "Maithreyi M.R.",
+        //     role: " ",
+        //     url: ""
+        // },
+
+    ],
+     "Website Developer ": [
         {
             name: "Sreekuttan V N",
             role: "",
             url: ""
         },
-        {
-            name: "Radha Patkar",
-            role: "",
-            url: ""
-        },
-        {
-            name: "Jayshree Borgohain",
-            role: "",
-            url: ""
-        },
-        {
-            name: "Maithreyi M.R.",
-            role: " ",
-            url: ""
-        },
-
-    ],
-     "Web designer ": [
-        {
-            name: "Sreekuttan V N",
-            role: "",
-            url: ""
-        },
 
     ],
 
-    "Art": [
+    "Illustrations": [
         {
             name: "Radha Patkar",
             role: "",
@@ -58,43 +58,45 @@ const CreditList2 = {
     ],
 
    
-    "Images and Videos ": [
-        {
-            name: "Jaya Peter",
-            role: "",
-            url: ""
-        },
+    "Videos": [
         {
             name: "Jayshree Borgohain",
             role: "",
             url: ""
         },
+        {
+            name: "Jaya Peter",
+            role: "",
+            url: ""
+        },
+        
 
     ],
-    "Editorial inputs": [
+    "Content and Edits": [
+         {
+            name: "Maithreyi M.R.",
+            role: " ",
+            url: ""
+        },
+         {
+            name: "Jaya Peter",
+            role: "",
+            url: ""
+        },
         {
             name: "Soubadra Devy",
             role: "",
             url: ""
         },
         {
-            name: "Johnathan",
+            name: "Jonathan Seefeldt",
             role: "",
             url: ""
         },
-        {
-            name: "Priyanka Jamwal",
-            role: "",
-            url: ""
-        },
+        
 
     ],
     "Data support": [
-        {
-            name: "Soubadra Devy",
-            role: "",
-            url: ""
-        },
         {
             name: "Sunil G.M",
             role: "",
@@ -105,6 +107,12 @@ const CreditList2 = {
             role: "",
             url: ""
         },
+        {
+            name: "Soubadra Devy",
+            role: "",
+            url: ""
+        },
+        
         {
             name: "Jayanth Shivarame Gowda",
             role: "",
@@ -118,8 +126,13 @@ const CreditList2 = {
 
     ],
     "Special thanks to": [
+       {
+            name: "Sunil G.M",
+            role: "",
+            url: ""
+        },
         {
-            name: "Water Lab team",
+            name: "Pavan K. Naik",
             role: "",
             url: ""
         },
@@ -128,11 +141,7 @@ const CreditList2 = {
             role: "",
             url: ""
         },
-        {
-            name: "Seshadri K.S.",
-            role: "",
-            url: ""
-        },
+        
         
     ],
 }
@@ -167,7 +176,7 @@ const Credits = () => {
                 ))}
 
             </div>
-            <div className="text-sm  flex justify-center items-center font-mono text-center pt-4 border-t border-[#c4c4c4]">@2026</div>
+            <div className="text-sm  flex justify-center items-center font-mono text-center pt-4 border-t border-[#c4c4c4]">© 2026 ATREE Communications</div>
 
         </div>
 

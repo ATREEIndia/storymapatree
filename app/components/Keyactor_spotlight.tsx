@@ -127,7 +127,7 @@ const Keyactors = () => {
             <div className="sticky top-10 w-full h-screen overflow-hidden z-10 flex  items-start md:items-center justify-center ">
                 <div className=" md:w-[80%] w-full relative " ref={containerRef}>
                     <img 
-                        src="\svgs\stakeholders0.svg"
+                        src="\svgs\stakeholders1.svg"
                         className="w-full h-full object-contain  "
                         alt="map"
                     />

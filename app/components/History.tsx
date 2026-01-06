@@ -60,7 +60,7 @@ const History = () => {
 
 
                 <div className='lg:w-1/2 '>
-                    <Bodytext text={<>The Jarabandemma temple, perched on a rocky outcrop by the lake, is a historic sacred site believed to date back to the era of the Mysore kings. As per local tradition, it was a resting place for soldiers on the move. During <i>Shravan</i>, the fifth month in the Hindu lunar calendar, villagers gathered here to pray for rain and offered <i>ambali</i>, a millet-based dish. A spring from a natural cleft in the rock near the entrance is seen as a miraculous gift. Inside the temple, uncarved stones represent powerful protectors – Jarubandemma, Akkayamma and the Saptamatheyaru – central to the community. </>} />
+                    <Bodytext text={<>The Jarabandemma temple, perched on a rocky outcrop by the lake, is a historic sacred site believed to date back to the era of the Mysore kings. As per local tradition, it was a resting place for soldiers on the move. During <i>Shravan</i>, the fifth month in the Hindu lunar calendar, villagers gathered here to pray for rain and offered <i>ambali</i>, a millet-based dish. A spring from a natural cleft in the rock near the entrance is seen as a miraculous gift. Inside the temple, uncarved stones represent powerful protectors – Jarabandemma, Akkayamma and the Saptamatheyaru – central to the community. </>} />
 
 
                 </div>
