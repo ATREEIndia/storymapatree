@@ -89,7 +89,9 @@ const Transformation2 = () => {
 
 
                     </ul>
-                    <Video url="https://atree-communication.s3.amazonaws.com/Storymap_media/INTRO_NATIVE_SPECIES.mp4" />
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/introduction_nativespecies.jpg
+                    "
+                     url="https://atree-communication.s3.amazonaws.com/Storymap_media/INTRO_NATIVE_SPECIES.mp4" />
 
 
 
@@ -119,7 +121,8 @@ const Transformation2 = () => {
 
 
                     </ul>
-                    <Video url="https://atree-communication.s3.amazonaws.com/Storymap_media/pollinator_thrive_butterfly.mp4" />
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/pollinators_thrive.jpg"
+                     url="https://atree-communication.s3.amazonaws.com/Storymap_media/pollinator_thrive_butterfly.mp4" />
 
 
 
@@ -149,7 +152,9 @@ const Transformation2 = () => {
 
 
                     </ul>
-                    <Video url="https://atree-communication.s3.amazonaws.com/Storymap_media/Biodiversity_transformation.mp4" />
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/biodiverity_improves.jpg"
+                    
+                     url="https://atree-communication.s3.amazonaws.com/Storymap_media/Biodiversity_transformation.mp4" />
 
 
                 </div>

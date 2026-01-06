@@ -39,7 +39,8 @@ const Restoration = () => {
                         <li>Need to involve the local community.</li>
 
                     </ul>
-                    <Video url="https://atree-communication.s3.amazonaws.com/Storymap_media/Key%20issues.mp4" />
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/key_issues.png" 
+                    url="https://atree-communication.s3.amazonaws.com/Storymap_media/Key%20issues.mp4" />
 
 
 
@@ -61,7 +62,8 @@ const Restoration = () => {
                         <li>Shoreline vegetation: Carefully planned and planted shoreline vegetation filters run-off, absorbs excess nutrients and provides shelter for small fish and zooplankton.</li>
 
                     </ul>
-                    <Video url="https://atree-communication.s3.amazonaws.com/Storymap_media/How%20healthy%20is%20your%20lake.mp4" />
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/lake_heath_checkup.jpg"
+                     url="https://atree-communication.s3.amazonaws.com/Storymap_media/How%20healthy%20is%20your%20lake.mp4" />
 
 
 
@@ -121,7 +123,9 @@ const Restoration = () => {
 
 
                     </ul>
-                    <Video url="https://atree-communication.s3.amazonaws.com/Storymap_media/Lake_cleanup.mp4" />
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/lake_cleanup.jpg"
+
+                    url="https://atree-communication.s3.amazonaws.com/Storymap_media/Lake_cleanup.mp4" />
 
                 </span>
             ),
@@ -142,17 +146,11 @@ const Restoration = () => {
 
 
                     </ul>
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/installing_technbs.jpg"
+                    
+                    url="https://atree-communication.s3.amazonaws.com/Storymap_media/nbs.mp4" />
 
-                    <video
-
-
-                        src="https://atree-communication.s3.amazonaws.com/Storymap_media/nbs.mp4"
-                        className="w-full max-h-[50vh] rounded-xl object-contain handle-video"
-                        muted
-                        playsInline
-                        controls
-                        autoPlay
-                    />
+                   
 
 
                 </span>
@@ -176,7 +174,9 @@ const Restoration = () => {
 
 
                     </ul>
-                    <Video url="https://atree-communication.s3.amazonaws.com/Storymap_media/rewilding%20the%20lake.mp4" />
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/rewilding.jpg"
+
+                     url="https://atree-communication.s3.amazonaws.com/Storymap_media/rewilding%20the%20lake.mp4" />
 
 
                 </span>
@@ -199,7 +199,9 @@ const Restoration = () => {
 
 
                     </ul>
-                    <Video url="https://atree-communication.s3.amazonaws.com/Storymap_media/Resident_trust%20formation.mp4" />
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/lake_trust.jpg"
+
+                     url="https://atree-communication.s3.amazonaws.com/Storymap_media/Resident_trust%20formation.mp4" />
 
 
 
@@ -224,7 +226,8 @@ const Restoration = () => {
 
                     </ul>
 
-                    <Video url="https://atree-communication.s3.amazonaws.com/Storymap_media/The%20Lake%20Explorers.mp4" />
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/engaging_schools.png"
+                     url="https://atree-communication.s3.amazonaws.com/Storymap_media/The%20Lake%20Explorers.mp4" />
 
                 </span>
             ),

@@ -7,11 +7,12 @@ type probs={
 
 const Video = ({url, poster}:probs) => {
   return (
-     <video
+    <div className="flex justify-center w-full">
+      <video
 
 
                         src={url}
-                        className="w-full max-h-[50vh] rounded-xl object-contain handle-video"
+                        className=" max-h-[50vh] rounded-xl object-contain handle-video"
                         muted
                         playsInline
                         controls
@@ -19,6 +20,8 @@ const Video = ({url, poster}:probs) => {
                         poster={poster}
                         
                     />
+    </div>
+     
   )
 }
 
