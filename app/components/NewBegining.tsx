@@ -12,9 +12,9 @@ const NewBegining = () => {
                     <li>Walkers, old and young, and enthusiastic birders are regulars at the lake. It has become a safe place for women to sit after work on a hot afternoon.</li>
                     <li>Following restoration, biodiversity assessments showed a slight decline in some species. But these were short-term responses to habitat reformation. The system soon stabilised.</li>
                 </ul>
-                <div className=" flex justify-center w-1/2">
+                <div className=" flex justify-center w-1/2 cursor-pointer">
 
-                    <img src="/bird-fly.gif" alt="" className="w-50 " />
+                    <img src="/bird-fly.gif" alt="" className="w-50 transition-transform duration-700 hover:-translate-y-100 hover:-translate-x-10" />
 
                 </div>
             </div>
@@ -27,8 +27,8 @@ const NewBegining = () => {
 
                 </div>
 
-                <div className="flex flex-row-reverse absolute  bottom-0 lg:bottom-10 left-0 z-10 text-white pb-5 ">
-                    <div className="flex flex-col gap-2 p-4 lg:px-50">
+                <div className="flex flex-row-reverse absolute  bottom-0 xl:bottom-10 left-0 z-10 text-white pb-5 ">
+                    <div className="flex flex-col gap-2 p-4 xl:px-50">
                             <h1 className="font-semibold"> However, the work is far from over.</h1>
 
                             <ul className=" px-4  mb-4 space-y-2 text-white">
