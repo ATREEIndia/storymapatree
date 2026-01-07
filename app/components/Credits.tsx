@@ -41,7 +41,7 @@ const CreditList2 = {
     ],
     "Website Developer ": [
         {
-            name: "Sreekuttan V N",
+            name: "Sreekuttan V. N.",
             role: "",
             url: ""
         },
@@ -90,6 +90,11 @@ const CreditList2 = {
             url: ""
         },
         {
+            name: "Priyanka Jamwal",
+            role: "",
+            url: ""
+        },
+        {
             name: "Jonathan Seefeldt",
             role: "",
             url: ""
@@ -99,7 +104,7 @@ const CreditList2 = {
     ],
     "Data support": [
         {
-            name: "Sunil G.M",
+            name: "Sunil G.M.",
             role: "",
             url: ""
         },
@@ -128,7 +133,7 @@ const CreditList2 = {
     ],
     "Special thanks to": [
         {
-            name: "Sunil G.M",
+            name: "Sunil G.M.",
             role: "",
             url: ""
         },

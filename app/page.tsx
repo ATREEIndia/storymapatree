@@ -186,16 +186,16 @@ export default function Home() {
         <Place />
       </div>
 
-      <Pagebreak image='/pagebreak_rockagama.png' />
+      <Pagebreak image='/pagebreak_rockagama.png' customclass="mt-20 " />
 
 
 
       {/* History */}
-      <div ref={sectionRefs.History} className={`w-full h-full ${spacing}  `} id="history">
+      <div ref={sectionRefs.History} className={`w-full h-full ${spacing} `} id="history">
         <History />
       </div>
 
-      <div ref={sectionRefs.Hydrology} className={`w-full h-full ${spacing}  `} id="hydrology">
+      <div ref={sectionRefs.Hydrology} className={`w-full h-full ${spacing} `} id="hydrology">
         <Hydrology />
       </div>
 
@@ -216,6 +216,7 @@ export default function Home() {
 
 
       <Pagebreak image='/pagebreak_bufello.png' />
+
 
       <div className={`w-full h-full ${spacing} `} >
         <Joininghands />
@@ -243,7 +244,7 @@ export default function Home() {
         <Restoration />
       </div>
 
-      <Pagebreak image='/pagebreak_roundboat.png' customclass="" />
+      <Pagebreak image='/pagebreak_roundboat.png' customclass="h-[150px]" />
 
 
 
@@ -253,7 +254,7 @@ export default function Home() {
         <Transformation2 />
       </div>
 
-      <Pagebreak image='/pagebreak_rock.png' />
+      <Pagebreak image='/pagebreak_rock.png' customclass="h-[150px]" />
 
 
       {/* <div ref={sectionRefs.Timeline} className={`w-full h-full  `} id="timeline">
@@ -268,6 +269,9 @@ export default function Home() {
       <div className={`w-full h-full  ${spacing}  `} id="newbegining">
         <NewBegining />
       </div>
+
+       <Pagebreak image='/pagebreak_dog.png' customclass="h-[180px]" />
+
 
       {/* Resources */}
       <div ref={sectionRefs.Resources} className={`w-full h-full  `} id="resources">
