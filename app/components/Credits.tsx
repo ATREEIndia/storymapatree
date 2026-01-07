@@ -81,14 +81,15 @@ const CreditList2 = {
     ],
     "Content and Edits": [
         
-        {
-            name: "Jaya Peter",
-            role: "",
-            url: ""
-        },
+        
         {
             name: "Maithreyi M.R.",
             role: " ",
+            url: ""
+        },
+        {
+            name: "Jaya Peter",
+            role: "",
             url: ""
         },
         {
