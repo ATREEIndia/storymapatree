@@ -5,11 +5,11 @@ type probs={
     customclass?:string
 }
 
-const Pagebreak = ({image, customclass}:probs) => {
+const Pagebreak = ({image, customclass=''}:probs) => {
     const spacing = 'p-5 md:px-20  md:pt-10  bg-white ';
   return (
      <div className={`w-full h-full ${spacing} flex  flex-col items-center pb-0   justify-center `}>
-        <div className={`w-[80vw] flex justify-center items-center  pt-50 `}>
+        <div className={`w-[80vw] flex justify-center items-center pt-10  flex-col `}>
 
           <img
             src={image}

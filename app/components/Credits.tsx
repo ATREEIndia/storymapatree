@@ -1,6 +1,7 @@
 import React from 'react'
 import Heading from './Heading';
 import Bodytext from './Bodytext';
+import GallerySlider from './GallerySlider';
 
 
 
@@ -38,7 +39,7 @@ const CreditList2 = {
         // },
 
     ],
-     "Website Developer ": [
+    "Website Developer ": [
         {
             name: "Sreekuttan V N",
             role: "",
@@ -53,11 +54,11 @@ const CreditList2 = {
             role: "",
             url: ""
         },
-        
+
 
     ],
 
-   
+
     "Videos": [
         {
             name: "Jayshree Borgohain",
@@ -69,16 +70,16 @@ const CreditList2 = {
             role: "",
             url: ""
         },
-        
+
 
     ],
     "Content and Edits": [
-         {
+        {
             name: "Maithreyi M.R.",
             role: " ",
             url: ""
         },
-         {
+        {
             name: "Jaya Peter",
             role: "",
             url: ""
@@ -93,7 +94,7 @@ const CreditList2 = {
             role: "",
             url: ""
         },
-        
+
 
     ],
     "Data support": [
@@ -112,7 +113,7 @@ const CreditList2 = {
             role: "",
             url: ""
         },
-        
+
         {
             name: "Jayanth Shivarame Gowda",
             role: "",
@@ -126,7 +127,7 @@ const CreditList2 = {
 
     ],
     "Special thanks to": [
-       {
+        {
             name: "Sunil G.M",
             role: "",
             url: ""
@@ -141,8 +142,8 @@ const CreditList2 = {
             role: "",
             url: ""
         },
-        
-        
+
+
     ],
 }
 
@@ -151,9 +152,9 @@ const Credits = () => {
     const spacing = 'p-5 md:px-20 lg:px-40 md:pt-20   ';
     return (
         <div className={`bg-[#015467] ${spacing} text-white flex flex-col`}>
-            <Heading customclass="text-white " text="Credits" />
+            <Heading customclass="text-white " text="Contributors" />
             <span className="py-2">This story map was developed in-house at Ashoka Trust for Research in Ecology and the Environment (ATREE), representing a collaborative effort to bridge the gap between rigorous environmental research and public engagement. Our team brings together diverse expertise in field ecology, water chemistry, geospatial analysis, and digital storytelling. From the laboratory to the design studio, every member of our team has contributed to bringing this narrative to your screen. Meet our dedicated team of researchers, creators, and communicators.</span>
-           
+
 
             <div className="flex gap-2 flex-wrap justify-between py-4">
                 {Object.entries(CreditList2).map(([teamname, team]) => (
@@ -176,6 +177,17 @@ const Credits = () => {
                 ))}
 
             </div>
+
+            <div className="w-full flex flex-col gap-5">
+                <Heading customclass="text-white " text="Gallery" />
+                <div>
+                    <GallerySlider />
+                </div>
+
+
+            </div>
+
+
             <div className="text-sm  flex justify-center items-center font-mono text-center pt-4 border-t border-[#c4c4c4]">© 2026 ATREE Communications</div>
 
         </div>

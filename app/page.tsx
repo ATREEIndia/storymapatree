@@ -34,6 +34,7 @@ import StoryWorldMap from "./components/StoryWorldMap";
 import Hydrology from "./components/Hydrology";
 import WorldMapScroll from "./components/WorldMapScroll";
 import Credits from "./components/Credits";
+import GallerySlider from "./components/GallerySlider";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
@@ -175,7 +176,7 @@ export default function Home() {
        <PlaceZoom/>
       </div> */}
 
-      <Pagebreak image='/pagebreak_dog.png' customclass=" h-[150px] " />
+      <Pagebreak image='/pagebreak_new_dive.png' customclass=" h-[200px] "/>
 
 
 
@@ -280,6 +281,8 @@ export default function Home() {
        <div className={`w-full h-full   `}  >
         <Credits />
       </div>
+
+    
 
 
 

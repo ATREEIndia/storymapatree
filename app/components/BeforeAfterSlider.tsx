@@ -50,14 +50,14 @@ const BeforeAfterSlider = () => {
 
   return (
     <div className=" items-center justify-center py-4 flex  ">
-      <div className="w-[90vw]  px-4 ">
+      <div className="w-[85vw]  px-4 ">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center mb-8 sm:mb-12">
           Before & After Comparison
         </h1>
         
         <div
           ref={containerRef}
-          className="relative w-full aspect-video overflow-hidden rounded-xl sm:rounded-2xl shadow-2xl cursor-col-resize select-none h-[70vh]"
+          className="relative w-full aspect-video overflow-hidden rounded-xl sm:rounded-2xl shadow-2xl cursor-col-resize select-none h-[80vh]"
           onMouseDown={handleMouseDown}
           onTouchStart={handleMouseDown}
         >
