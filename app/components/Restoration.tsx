@@ -102,7 +102,8 @@ const Restoration = () => {
 
 
                     </ul>
-                    <Video url="https://atree-communication.s3.amazonaws.com/Storymap_media/biodiversity.mp4" />
+                    <Video poster="https://atree-communication.s3.amazonaws.com/Storymap_media/thumbnail/suvey.JPG"
+                    url="https://atree-communication.s3.amazonaws.com/Storymap_media/baseline_survey.mp4" />
 
                 </span>
             ),
