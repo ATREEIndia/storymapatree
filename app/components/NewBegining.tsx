@@ -5,7 +5,7 @@ const NewBegining = () => {
     return (
         <div className='flex flex-col gap-5 p-5 '>
             <Heading text='A New Beginning' />
-            <div className=" flex w-full items-center  text-sm leading-7">
+            <div className=" flex w-full items-center flex-col md:flex-row  text-sm leading-7">
 
                 <ul className=" mb-4 space-y-2  w-full ">
                     <li>The pied kingfisher has returned to Venkateshpura Lake. Watching it hover on the lake before diving down to fish gives us hope. The water looks clearer, and the water quality metrics show improvement. Residential areas around the lake haven't ordered a water tanker since the restoration – evidence that the lake is performing its role as an aquifer.</li>
@@ -21,17 +21,17 @@ const NewBegining = () => {
 
 
 
-            <div className=" flex  items-center relative h-screen text-sm leading-6 ">
+            <div className=" flex  items-center relative h-[150vh] lg:h-screen text-sm leading-6 ">
                 <div>
-                    <img src="/svgs/new-begining-bottom.svg" alt="bottom" className="absolute h-full top-0 left-0 object-cover" />
+                    <img src="/svgs/new-begining-bottom.svg" alt="bottom" className="absolute h-full top-0 left-0 object-cover  md:brightness-100" />
 
                 </div>
 
-                <div className="flex flex-row-reverse absolute  bottom-0 xl:bottom-10 left-0 z-10 text-white pb-5 ">
-                    <div className="flex flex-col gap-2 p-4 xl:px-50">
+                <div className="flex flex-row-reverse absolute  bottom-0 xl:bottom-10 left-0 z-10 text-[#00080a] md:text-white md:pb-5 ">
+                    <div className="flex flex-col gap-2 p-4 xl:p-5 2xl:px-50">
                             <h1 className="font-semibold"> However, the work is far from over.</h1>
 
-                            <ul className=" px-4  mb-4 space-y-2 text-white">
+                            <ul className=" px-4  mb-4 space-y-2 ">
                                 <li>Water quality must remain consistent, especially in the summer months when the lake recedes, and dissolved oxygen levels can drop to alarming levels. The floating islands and the new plants demand regular care.</li>
                                 <li>Sustained efforts over the years to retain water in Venkateshpura Lake have helped ensure year-round water storage, supporting groundwater recharge and local ecology. However, these changes have also altered the lake’s natural flow, reducing circulation and occasionally leading to stagnant conditions and algal blooms. As the catchment urbanised, such shifts were inevitable.</li>
                                 <li>Improving the inlets with nature-based solutions, such as vegetated bends that slow the flow and absorb nutrients before the water enters the lake, is a good way to support the lake’s long-term health.</li>

@@ -90,7 +90,7 @@ const GallerySlider: React.FC = () => {
   }, [currentIndex, isAutoPlaying]);
 
   return (
-    <div className="flex items-center justify-center  py-8">
+    <div className="flex items-center justify-center  py-4">
       <div className="w-full">
         <div className="relative group">
           {/* Main Image Container */}

@@ -52,7 +52,7 @@ const Place = () => {
         // Only pin on large screens and above
         const mm = gsap.matchMedia();
 
-        mm.add("(min-width: 761px)", () => {
+        mm.add("(min-width: 1024px)", () => {
             ScrollTrigger.create({
                 trigger: imgEl,
                 start: "top 10%",
@@ -83,26 +83,26 @@ const Place = () => {
                     src='place_map2.png'
                     className='w-full object-contain sticky top-12'
                 /> */}
-                <div className="w-full sticky top-12 " ref={imgref}>
+                <div className="w-full sticky top-12  " ref={imgref}>
                     <video
                         src="https://atree-communication.s3.amazonaws.com/Storymap_media/lake_eath2.mp4"
                         
                         muted
                         autoPlay
-                        className="w-full  object-cover "
+                        className="w-full  object-cover  "
                     />
                 </div>
 
 
-                <div ref={last_ref} className='flex flex-col gap-5 mt-10 md:w-full md:absolute md:top-0 md:right-0  md:px-10 mt-20 '>
+                <div ref={last_ref} className='flex flex-col  md:gap-5  lg:mt-20 lg:w-full lg:absolute lg:top-0 lg:right-0  lg:px-10 '>
                     {placeitems.map((item, index) => (
-                        <div key={index} className={`w-full flex flex-col  ${index % 2 === 0 ? "md:items-end" : "md:items-start "} `}>
-                            <div className='md:w-1/3 p-4 border-2 bg-white border-gray-200 shadow-xl rounded-xl flex flex-col gap-2 md:z-10'>
+                        <div key={index} className={`w-full flex flex-col  items-center ${index % 2 === 0 ? "lg:items-end" : "lg:items-start "} `}>
+                            <div className='lg:w-2/3 xl:w-1/2 w-full  p-4 border-2 bg-white border-gray-200 shadow-xl rounded-xl flex flex-col gap-2 md:z-10'>
 
 
                                 <img
                                     src={item.image}
-                                    className="w-full h-[200px] object-cover"
+                                    className="w-full lg:h-[200px] object-cover"
                                 />
                                 <span className="text-sm leading-7">
                                     {item.content}
@@ -112,6 +112,13 @@ const Place = () => {
                         </div>
 
                     ))}
+
+
+                    <div className='xl:hidden sm:hidden lg:flex opacity-0 lg:w-2/3 xl:w-1/2 w-full h-200 p-4 border-2 bg-white border-gray-200 shadow-xl rounded-xl  flex-col gap-2 lg:z-10'>
+
+
+                              
+                            </div>
 
                 </div>
 

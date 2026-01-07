@@ -186,7 +186,7 @@ export default function Home() {
         <Place />
       </div>
 
-      <Pagebreak image='/pagebreak_rockagama.png' customclass="mt-20 " />
+      <Pagebreak image='/pagebreak_rockagama.png' customclass="mt-20 xl:mt-30 " />
 
 
 

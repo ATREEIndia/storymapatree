@@ -357,7 +357,7 @@ const Restoration = () => {
                         {steps.map((step, index) => (
                             <div ref={el => { stepRefs.current[index] = el! }} onClick={(() => { scrollWithOffset('step' + index) })}
                                 key={index}
-                                className={`bg-[#087f9b] ${step.width} ${activeitem === step.title ? "bg-[#087f9b]" : "lg:bg-gray-400"}  rounded-xl p-2 lg:p-4 text-white font-semibold restoration-container cursor-pointer`}
+                                className={`bg-[#087f9b] ${step.width} ${activeitem === step.title ? "bg-[#087f9b]" : "lg:bg-gray-400"}  rounded-xl p-3 lg:p-4   text-white font-semibold restoration-container cursor-pointer`}
                             >
                                 <h1 className="text-[12px] font-normal"> </h1>
                                 <div className="text-[12px] xl:text-[16px]"> {index + 1}. {step.title} </div>
