@@ -3,7 +3,7 @@ import Heading from './Heading'
 
 const NewBegining = () => {
     return (
-        <div className='flex flex-col gap-5 p-5 '>
+        <div className='flex flex-col gap-5 p-5 bird-landing'>
             <Heading text='A New Beginning' />
             <div className=" flex w-full items-center flex-col md:flex-row  text-sm leading-7">
 

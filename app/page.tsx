@@ -102,6 +102,10 @@ export default function Home() {
 
   const lockunloackbird = () => {
     setShowbird(!showbird);
+    setTimeout(() => {
+       setShowbird(false);
+      
+    }, 20000);
   }
 
   const [loading, setLoading] = useState(true);
@@ -254,7 +258,7 @@ export default function Home() {
 
 
       {/* Transformation */}
-      <div ref={sectionRefs.Transformation} className={`w-full h-full px-2 `} id="transformation">
+      <div  onMouseEnter={() => setShowbird(false)} ref={sectionRefs.Transformation} className={`w-full h-full px-2 `} id="transformation">
         <Transformation2 />
       </div>
 
@@ -265,12 +269,14 @@ export default function Home() {
         <Timeline/>
       </div> */}
 
-      <div ref={sectionRefs.Timeline} className={`w-full h-full  `} id="timeline">
+      <div  onMouseEnter={() => setShowbird(false)} ref={sectionRefs.Timeline} className={`w-full h-full  `} id="timeline">
         <Timeline2 />
       </div>
 
+  
 
-      <div className={`w-full h-full  ${spacing}  `} id="newbegining">
+
+      <div  onMouseEnter={() => setShowbird(false)} className={`w-full h-full  ${spacing}  `} id="newbegining">
         <NewBegining />
       </div>
 

@@ -4,7 +4,7 @@ import Bodytext from './Bodytext'
 
 const History = () => {
     return (
-        <div className=''>
+        <div className='bird-landing'>
             <Heading text='History' />
             <div className='w-full flex justify-center items-center lg:items-start lg:justify-between  lg:gap-10 lg:flex-row flex-col '>
                 <div className='lg:w-1/2 '>
