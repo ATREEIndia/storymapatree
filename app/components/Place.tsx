@@ -97,7 +97,7 @@ const Place = () => {
                 <div ref={last_ref} className='flex flex-col  md:gap-5  lg:mt-20 lg:w-full lg:absolute lg:top-0 lg:right-0  lg:px-10 '>
                     {placeitems.map((item, index) => (
                         <div key={index} className={`w-full flex flex-col  items-center ${index % 2 === 0 ? "lg:items-end" : "lg:items-start "} `}>
-                            <div className='lg:w-2/3 xl:w-1/2 w-full  p-4 border-2 bg-white border-gray-200 shadow-xl rounded-xl flex flex-col gap-2 md:z-10'>
+                            <div className='lg:w-2/3 xl:w-1/2 2xl:w-1/3 w-full  p-4 border-2 bg-white border-gray-200 shadow-xl rounded-xl flex flex-col gap-2 md:z-10'>
 
 
                                 <img
