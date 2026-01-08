@@ -69,7 +69,7 @@ export default function Home() {
         onEnterBack: () => setActiveSection(key.replace('_', ' ')),
       });
     });
-    setLoading(false)
+    //setLoading(false)
 
   }, []);
 
@@ -125,8 +125,9 @@ export default function Home() {
 
     const onLoad = () => {
       setTimeout(() => {
-        setLoading(false);
-        document.body.style.overflow = 'auto'; // re-enable scrolling
+        
+        document.body.style.overflow = 'auto';
+        setLoading(false); // re-enable scrolling
       }, 1000); // slight delay for smoother transition
     };
 
@@ -148,8 +149,11 @@ export default function Home() {
 
     <main className='w-full h-full flex flex-col '>
 
+      <div className="hidden">
+         <BreakpointDisplay />
+      </div>
+     
 
-      <BreakpointDisplay />
       <BirdCursor showbird={showbird} />
 
 

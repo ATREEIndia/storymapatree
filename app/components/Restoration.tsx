@@ -168,7 +168,7 @@ const Restoration = () => {
                 <span>
                     <ul className="list-disc px-2 mb-4 space-y-2">
                         <li>Butterfly mounds layered with stones, logs, soil and compost to grow host plants for caterpillars and nectar plants for adult butterflies.</li>
-                        <li>A “bee hotel” made of natural materials like dead wood, bamboo and twigs, to attract solitary bees that thrive in cityscapes and are vital for pollination, but increasingly lack nesting and foraging spaces.</li>
+                        <li>A “bee resort” made of natural materials like dead wood, bamboo and twigs, to attract solitary bees that thrive in cityscapes and are vital for pollination, but increasingly lack nesting and foraging spaces.</li>
                         <li>Unpaved walking trails instead of conventional cemented paths to encourage slower, mindful walking.</li>
                         <li>Trails that mimic dry Deccan gardens, with the grasses Bengaluru historically had.</li>
 
