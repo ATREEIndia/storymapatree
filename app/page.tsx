@@ -83,9 +83,9 @@ export default function Home() {
         trigger: video,
         start: "top bottom",      // when the video enters the bottom of viewport
         end: "bottom top",       // when the video leaves the top of viewport
-        onEnter: () => video.muted = true,
+        onEnter: () =>{video.play(); video.muted = true},
         onLeave: () => video.pause(),
-        onEnterBack: () => video.pause(),
+        onEnterBack: () => video.play(),
         onLeaveBack: () => video.pause(),
       })
 

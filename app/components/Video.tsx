@@ -16,7 +16,8 @@ const Video = ({url, poster}:probs) => {
                         muted
                         playsInline
                         controls
-                        
+                        autoPlay
+                        loop
                         poster={poster}
                         
                     />

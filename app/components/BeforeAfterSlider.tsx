@@ -105,7 +105,7 @@ const BeforeAfterSlider = () => {
           </div>
         </div>
 
-        <div className="mt-6 sm:mt-8 text-center text-slate-400 text-sm sm:text-base">
+        <div className="mt-6 sm:mt-8 text-center text-slate-400 text-sm sm:text-base hidden">
           <p>Drag the slider or tap to compare</p>
         </div>
       </div>

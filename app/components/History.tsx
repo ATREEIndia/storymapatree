@@ -39,6 +39,8 @@ const History = () => {
                         muted
                         playsInline
                         controls
+                        autoPlay
+                        loop
                         poster="/thumbnail_gts.jpg"
                     />
                 </div>

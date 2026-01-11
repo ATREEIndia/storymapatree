@@ -117,7 +117,7 @@ export default function StoryMapAccordion() {
   return (
     <div className=" max-w-4xl mx-auto mt-0">
       <div className="text-center mt-12 pb-8">
-        <p className="text-slate-400 text-sm">
+        <p className="text-slate-400 text-sm hidden">
           Click on each section to expand and explore the story
         </p>
       </div>
