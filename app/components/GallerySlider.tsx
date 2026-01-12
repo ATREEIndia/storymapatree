@@ -64,7 +64,33 @@ const GallerySlider: React.FC = () => {
       src: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=600&fit=crop',
       alt: 'Desert landscape',
       title: 'Desert Dreams'
-    }
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop',
+      alt: 'Mountain landscape',
+      title: 'Majestic Mountains'
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&h=600&fit=crop',
+      alt: 'Ocean sunset',
+      title: 'Ocean Serenity'
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=1200&h=600&fit=crop',
+      alt: 'Forest path',
+      title: 'Forest Adventure'
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=600&fit=crop',
+      alt: 'Desert landscape',
+      title: 'Desert Dreams'
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=1200&h=600&fit=crop',
+      alt: 'Forest path',
+      title: 'Forest Adventure'
+    },
+    
   ];
 
   const goToPrevious = () => {
@@ -113,7 +139,7 @@ const GallerySlider: React.FC = () => {
                 {/* {image.title && (
                   <div className="absolute bottom-8 left-8 text-white">
                     <h2 className="text-4xl font-bold mb-2">{image.title}</h2>
-                    <p className="text-lg opacity-90">Slide {index + 1} of {images.length}</p>
+                    <p className="text-lg opacity-90 hidden">Slide {index + 1} of {images.length}</p>
                   </div>
                 )} */}
               </div>

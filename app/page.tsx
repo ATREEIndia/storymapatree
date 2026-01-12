@@ -85,7 +85,7 @@ export default function Home() {
         end: "bottom top",       // when the video leaves the top of viewport
         onEnter: () =>{video.play(); video.muted = true},
         onLeave: () => video.pause(),
-        onEnterBack: () => video.play(),
+        onEnterBack: () => {video.play(); video.muted = true},
         onLeaveBack: () => video.pause(),
       })
 
@@ -248,7 +248,7 @@ export default function Home() {
 
 
       {/* Restoration */}
-      <div ref={sectionRefs.Restoration} className={`w-full h-full ${spacing} `} id="restoration">
+      <div onMouseEnter={() => setShowbird(false)} ref={sectionRefs.Restoration} className={`w-full h-full ${spacing} `} id="restoration">
         <Restoration />
       </div>
 
