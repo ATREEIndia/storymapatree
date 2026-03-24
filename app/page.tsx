@@ -125,7 +125,7 @@ export default function Home() {
 
   useEffect(() => {
     // Disable scrolling while loading
-    document.body.style.overflow = 'hidden';
+    // document.body.style.overflow = 'hidden';
 
     const onLoad = () => {
       setTimeout(() => {
@@ -149,7 +149,7 @@ export default function Home() {
 
 
   return (<>
-    {loading && <Loader />}
+    {/* {loading && <Loader />} */}
 
     <main className='w-full h-full flex flex-col '>
 

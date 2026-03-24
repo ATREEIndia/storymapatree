@@ -329,7 +329,8 @@ const Transformation2 = () => {
 
             {/* <Bodytext text={"Civilisations evolved around waterbodies. Be it a pond or a lake, a waterbody is a shared resource. For its communities, it sustains livelihoods, shapes cultural practices and supports ecological balance."} /> */}
             <div className='flex flex-col gap-2 relative w-full h-full'>
-                <img ref={img_ref}
+                <img 
+                ref={img_ref}
                     src={current_map}
                     className='w-full md:w-1/2  object-cover sticky top-10 bg-white md:bg-transparent  transition-opacity duration-700 ease-in-out opacity-100 z-10 md:top-20 md:mt-[1vh] '
                     alt='transformation image'
